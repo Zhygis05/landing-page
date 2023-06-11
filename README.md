@@ -1,2 +1,2 @@
 # landing-page
-HTML/CSS  Assignment 
+HTML/CSS  Assignment
