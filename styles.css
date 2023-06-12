@@ -85,12 +85,113 @@ body {
 
 /* FIRST SECTION */
 
+.first-section {
+    background: linear-gradient(135deg, #4c9e4c, #3C6D3D); 
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+.heading-info {
+    width: 50%;
+}
+h1 {
+    font-size: 35px;
+    letter-spacing: 6px;
+    color: #E2E7EE;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+margin-bottom: 10px;
+}
+.heading-info p {
+    font-size: 20px;
+    color: #E2E7EE;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.heading-info button {
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 35px;
+    background-color: #E2E7EE;
+    color: #4c9e4c;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+.heading-info button:hover {
+    background-color: #4c9e4c;
+    color: #E2E7EE;
+}
+.img-container img {
+    border-radius: 35px;
+}
+@media (max-width: 900px) {
+    .flex-container {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        gap: 20px;
+    }
+    .heading-info {
+        flex-direction: column;
+        justify-content: center;
+    }
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+    .heading-info p {
+        width: 100%;
+        text-align: center;
+    }
+    .heading-info button {
+        width: 100%;
+    }
+}
 
+/* SECOND-SECTION */
 
-
-
-
-
-
-
-
+.second-section {
+    height: 80vh;
+    background: linear-gradient(135deg, #B2F4B2, #6AD975);
+}
+h2 {
+    padding: 1em;
+    font-size: 35px;
+    letter-spacing: 6px;
+    color: #112A46;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+margin-bottom: 10px;
+text-align: center;
+}
+.second-section p {
+    margin-right: 10em;
+    margin-left: 10em;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #050a0f;
+    line-height: 25px;
+}
+.flex-container-second {
+    display: flex;
+    padding-top: 3em;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+.second-img-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 3px solid rgb(22, 41, 19);
+}
